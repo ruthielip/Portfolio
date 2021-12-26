@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Ruthie's Portfolio</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top" id="navbar">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand nav-glitch nav-title" href="#">Ruthie's Portfolio</a>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link nav-glitch" style="color: #ebebeb" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-glitch" style="color: #ebebeb" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-glitch" style="color: #ebebeb" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-glitch" style="color: #ebebeb" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <header class="bg-img d-flex justify-content-center align-items-center" style="background-image: url(gifbg.gif); height: 100vh; /*background-attachment: fixed;*/background-attachment: fixed; background-size: cover; background-position: center; height: 100vh;">
+    <div style="text-align: center;">
+      <h1 class="display-3 text-white title-glitch" style="font-family: 'Nanum Gothic Coding', monospace; font-size: 65px;">Hi, I'm Ruthie.</h1>
+      <a href="#about"><button type="button" class="btn btn-outline-light btn-lg mt-2 glitch">See more <i class="fas fa-chevron-right"></i></button></a>
+    </div>
+  </header>
+
+  <section class="container" id="about" style="text-align: center;">
+    <h1 class="pt-5 pb-4 about-me" style="color: black;">About Me</h1>
+
+    <img src="pic.jpg" height="200" width="200" style="border-radius: 175px;" class="mb-4 zoom me-pic">
+    <div>
+      <h2 class="my-name"><strong>Ruth Lipkin</strong></h2>
+      <p class="about-text">Full Stack Developer experienced in JavaScript based programming with a background in art specializing in 2D Animation.
+      <br/><br/><strong>Technical Skills:</strong> Javascript, React.js, Bootstrap, HTML, CSS, PostgreSQL, MongoDB, Node.js, Heroku, Premiere Pro, Photoshop, Animate.
+    </p>
+    </div>
+  </section>
+
+  <hr/>
+
+  <section id="projects">
+    <h1 class="pt-5 pb-4 projects-title">Projects</h1>
+    <div class="container-flex">
+      <div class="img-wrap glitch">
+      <a href="https://artistreeweb.herokuapp.com/" target="_blank"><img class="shadowed" src="01.jpg" height="200" width="300"/></a>
+      <h3 class="project-header">Artistree</h3>
+      <p class="project-text">Interactive website to post and view art.</p>
+      </div>
+      <div class="hidden-text">text</div>
+      <div class="img-wrap glitch">
+      <a href="https://github.com/ruthielip/Hackathon2" target="_blank"><img class="shadowed" src="02.jpg" height="200" width="300"/></a>
+      <h3 class="project-header">Ghibli Search</h3>
+      <p class="project-text">Search Studio Ghibli films, characters and locations.</p>
+      </div>
+      <div class="img-wrap glitch">
+      <a href="https://github.com/ruthielip/DI_Bootcamp/tree/main/Week10/weather-app2/src" target="_blank"><img class="shadowed" src="03.jpg" height="200" width="300"/></a>
+      <h3 class="project-header">Weather App</h3>
+      <p class="project-text">Search weather by city to get weather information.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr/>
+
+  <section class="contact" id="contact">
+    <div class="container">
+
+      <form style="padding: 80px 0px;">
+        <div class="row">
+          <div class="col-md-12 col-sm-12" style=" text-align: center;">
+            <h1>Get in Touch</h1>
+            <a class="email" href = "mailto: ruthieism@gmail.com">ruthieism@gmail.com</a><br/>
+            <a href='https://github.com/ruthielip' target="_blank"><i class="fab fa-github fa-2x mx-2 icon-link"></i></a>
+            <a href="https://www.linkedin.com/in/ruth-lipkin-466411166/" target="_blank"><i class="fab fa-linkedin fa-2x icon-link"></i></a>
+          </div>
+          </div>
+
+      </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+  </body>
+  </html>

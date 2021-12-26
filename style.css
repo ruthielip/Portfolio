@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+* {
+	box-sizing: border-box;
+	/*text-align: center;*/
+}
+
+.container-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0px 5% 100px 5%;
+	border-radius: 20px;
+	padding: 5px;
+  gap: 20px;
+}
+
+.me-pic {
+  margin-top: 20px;
+}
+
+.about-me {
+  margin-top: 40px;
+}
+
+.about-text {
+  margin: 10px 20% 90px 20%;
+  font-size: 24px;
+  font-family: 'Quicksand', sans-serif;
+  color: gray
+}
+
+.my-name {
+  color: gray;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+}
+
+hr {
+  margin: 10px 10%;
+}
+
+.projects-title {
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+#navbar:active {
+  color: white;
+}
+
+.glitch {
+	transition: all 0.3s ease;
+	margin: 5px;
+  object-fit: cover;
+}
+
+.glitch:hover {
+    box-shadow:
+            1px 0 1px magenta,
+            2px 1px 2px magenta,
+            3px 2px 3px magenta,
+
+            -1px -1px cyan,
+            -2px -2px cyan,
+            -3px -3px cyan;
+    transform: translate(-3px);
+}
+
+.zoom {
+	transition: all 0.3s ease;
+}
+
+.zoom:hover {
+	transform: scale(1.1);
+}
+
+.title-glitch {
+	transition: all 0.3s ease;
+}
+
+.title-glitch:hover {
+	text-shadow:-2px -2px 0 cyan, 2px 2px 0 magenta;
+}
+
+.nav-glitch {
+	transition: all 0.3s ease;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+.nav-title {
+  font-size: 30px;
+}
+
+.nav-glitch:hover {
+	text-shadow:-1px -1px 0 cyan, 1px 1px 0 magenta;
+}
+
+.shadowed {
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  border: 5px 5px 0 0;
+  object-fit: cover;
+}
+
+.img-wrap {
+  height: 400px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.project-header {
+  text-align: center;
+  font-size: 25px;
+  margin: 25px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.project-text {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.hidden-text {
+  display: none;
+  position: absolute;
+  z-index: 2;
+}
+
+.shadowed:hover + .hidden-text {
+  display: block;
+}
+
+.icon-link {
+  color: #202021;
+  margin-top: 10px;
+}
+
+.cv {
+  text-decoration: none;
+  font-weight: bold;
+  color: gray;
+}
+
+.cv:hover {
+  color: magenta;
+}
+
+.email {
+  text-decoration: none;
+  font-size: 25px;
+  color: gray;
+}
+
+.email:hover {
+  color: magenta;
+}
